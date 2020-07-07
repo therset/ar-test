@@ -38,8 +38,8 @@ var models = [
         info: 'Dragonite, Lv. 99, HP 150/150',
     },    
     {
-        url: './assets/nabuco/nabuco_app.gtlf',
-        scale: '1 1 1',
+        url: './assets/nabuco/nabubo_app.gltf',
+        scale: '0.8 0.8 0.8',
         rotation: '0 180 0',
         info: 'Nabuco',
     },
