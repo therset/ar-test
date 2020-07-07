@@ -11,8 +11,8 @@ function staticLoadPlaces() {
         {
             name: 'Pokèmon',
             location: {
-                lat: 51.468148,
-                lng: -2.612724,
+                lat: 51.467687,  
+                lng: -2.614878,
             },
         },
     ];
@@ -20,9 +20,9 @@ function staticLoadPlaces() {
 
 var models = [
     {
-        url: './assets/WhipperNude/WhipperNude.gltf',
+        url: './assets/magnemite/scene.gltf',
         scale: '0.5 0.5 0.5',
-        info: 'lady',
+        info: 'Magnemite, Lv. 5, HP 10/10',
         rotation: '0 180 0',
     },
     {
@@ -36,7 +36,14 @@ var models = [
         scale: '0.08 0.08 0.08',
         rotation: '0 180 0',
         info: 'Dragonite, Lv. 99, HP 150/150',
+    },    
+    {
+        url: './assets/nabuco/nabuco_app.gtlf',
+        scale: '1 1 1',
+        rotation: '0 180 0',
+        info: 'Nabuco',
     },
+
 ];
 
 var modelIndex = 0;
