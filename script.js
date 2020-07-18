@@ -41,7 +41,7 @@ var models = [
         url: './assets/nabuco/nabubouk_app.gltf',
         scale: '0.8 0.8 0.8',
         rotation: '0 180 0',
-        info: 'Nabuco',
+        info: 'Nabuco UK',
     },
 
 ];
