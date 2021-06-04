@@ -1,30 +1,31 @@
-let messages = null
 
 // Fetch Messages
-
-fetch('./api/messages.json')
-  .then(response => response.json())
-  .then(data => {
-      console.log('messages.json', data)
-      messages = data
-  });
+export async function getMessages () {
+    let messages = null
+    fetch('./api/messages.json')
+    .then(response => response.json())
+    .then(data => {
+        console.log('messages.json', data)
+        return data
+    });
+}
 
 // Fetch Models
+export async function getModels () {
+    let models = null
+    fetch('./api/models.json')
+    .then(response => response.json())
+    .then(data => {
+        console.log('models.json', data)
+        return data
+    });
+}
 
-let models = null
-
-fetch('./api/models.json')
-  .then(response => response.json())
-  .then(data => {
-    console.log('models.json', data)
-    models = data
-});
-
-window.onload = () => {
-    const button = document.querySelector('button[data-action="change"]');
-    button.innerText = 'choose model';
-    renderPlaces(messages);
-};
+// window.onload = () => {
+//     const button = document.querySelector('button[data-action="change"]');
+//     button.innerHTML = 'choose model';
+//     renderPlaces(messages);
+// };
 
 // function staticLoadPlaces() {
 //     return [
