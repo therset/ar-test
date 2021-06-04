@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Pokèmon",
+        "location": {
+            "lat": 51.455604,  
+            "lng": -2.618383
+        },
+         "message" : "",
+         "content" : ""
+    },
+    
+    {
+        "name": "Pokèmon",
+        "location": {
+            "lat": 51.455604,  
+            "lng": -2.618383
+        },
+         "message" : "",
+         "content" : ""
+    },
+
+    {
+        "name": "Pokèmon",
+        "location": {
+            "lat": 51.455604,  
+            "lng": -2.618383
+        },
+         "message" : "",
+         "content" : ""
+    }
+
+]
